@@ -78,7 +78,7 @@ test("MessageList renders messages with parts", () => {
   render(<MessageList messages={messages} />);
 
   expect(screen.getByText("Creating your component...")).toBeDefined();
-  expect(screen.getByText("Creating Card.jsx")).toBeDefined();
+  expect(screen.getByText("Creating /components/Card.jsx")).toBeDefined();
 });
 
 test("MessageList shows content for assistant message with content", () => {
